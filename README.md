@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Welcome to the Biodata Project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://devjethava-biodata.vercel.app/
 
 ## How can I edit this code?
 
@@ -24,10 +24,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone [https://github.com/DevJethava04010/devjethava.biodata.git](https://github.com/DevJethava04010/devjethava.biodata.git)
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd devjethava.biodata
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,12 +62,10 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Simply open [Vercel](https://vercel.com/) and click on connect git repo.
 
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+To connect a domain, navigate to Deployments > Projects Name > Assign Domain.
