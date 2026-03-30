@@ -123,7 +123,8 @@ const Index = () => {
                                 <DetailRow label="Father's Occupation" value="Business (Bhavnagar)" />
                                 <DetailRow label="Mother's Name" value="Reenaben Pankajbhai Jethava" />
                                 <DetailRow label="Mother's Occupation" value="Housewife" />
-                                <DetailRow label="Siblings" value="1 Younger Brother" />
+                                <DetailRow label="Siblings" value="Younger Brother" />
+                                <DetailRow label="Brother's Name" value="Meet Pankajbhai Jethava" />
                                 <DetailRow label="Brother's Occupation" value="Pursuing Study (BE - Electrical Eng.)" />
                                 {/* <DetailRow label="Family Type" value="Nuclear" /> */}
                             </div>
