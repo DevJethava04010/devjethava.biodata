@@ -3,7 +3,8 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { X } from "lucide-react";
 
 import gallery1 from "@/assets/gallery-1.png";
-import gallery2 from "@/assets/gallery-2.png";
+// import gallery2 from "@/assets/gallery-2.png";
+import gallery2 from "@/assets/20251022_180730.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.png";
 
@@ -24,7 +25,7 @@ const PhotoGallery = () => {
                     <button
                         key={i}
                         onClick={() => setSelected(i)}
-                        className="group relative aspect-[4/3] overflow-hidden rounded-lg border-2 border-gold-light/40 hover:border-gold transition-all duration-300"
+                        className="group relative aspect-[3/4] overflow-hidden rounded-lg border-2 border-gold-light/40 hover:border-gold transition-all duration-300"
                     >
                         <img
                             src={photo.src}
