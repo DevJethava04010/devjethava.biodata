@@ -25,7 +25,7 @@ const PhotoGallery = () => {
                     <button
                         key={i}
                         onClick={() => setSelected(i)}
-                        className="group relative aspect-[3/4] overflow-hidden rounded-lg border-2 border-gold-light/40 hover:border-gold transition-all duration-300"
+                        className="group relative aspect-[4/5] overflow-hidden rounded-lg border-2 border-gold-light/40 hover:border-gold transition-all duration-300"
                     >
                         <img
                             src={photo.src}
