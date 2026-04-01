@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { X } from "lucide-react";
 
-import gallery1 from "@/assets/gallery-1.png";
+// import gallery1 from "@/assets/gallery-1.png";
 // import gallery2 from "@/assets/gallery-2.png";
 import gallery2 from "@/assets/20251022_180730.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.png";
 
 const photos = [
-    { src: gallery1, alt: "Family Photo" },
+    // { src: gallery1, alt: "Family Photo" },
     { src: gallery2, alt: "Casual" },
     { src: gallery3, alt: "Traditional" },
     { src: gallery4, alt: "Travel" },
@@ -20,7 +20,7 @@ const PhotoGallery = () => {
 
     return (
         <>
-            <div className="grid grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-3 gap-3 sm:gap-4">
                 {photos.map((photo, i) => (
                     <button
                         key={i}
