@@ -24,7 +24,7 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone [https://github.com/DevJethava04010/devjethava.biodata.git](https://github.com/DevJethava04010/devjethava.biodata.git)
+git clone https://github.com/DevJethava04010/devjethava.biodata.git
 
 # Step 2: Navigate to the project directory.
 cd devjethava.biodata
