@@ -106,11 +106,11 @@ const Index = () => {
                         <div>
                             <SectionTitle>Education & Career</SectionTitle>
                             <div className="bg-cream/50 rounded-xl p-4">
+                                <DetailRow label="Occupation" value="Sr. Software Engineer" />
+                                <DetailRow label="Company" value="OpenXcell - Ahmedabad" />
                                 <DetailRow label="Education" value="M.Tech (Data Science) BITS, Pilani - 2024" />
                                 <DetailRow label="" value="BE (IT) SSEC, Bhavnagar - 2020" />
                                 <DetailRow label="" value="Diploma (IT) BPTI, Bhavnagar - 2017" />
-                                <DetailRow label="Occupation" value="Sr. Software Engineer" />
-                                <DetailRow label="Company" value="OpenXcell - Ahmedabad" />
                                 {/* <DetailRow label="Annual Income" value="₹8,00,000" /> */}
                             </div>
                         </div>
