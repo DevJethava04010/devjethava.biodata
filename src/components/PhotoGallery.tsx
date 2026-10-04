@@ -4,9 +4,9 @@ import { X } from "lucide-react";
 
 // import gallery1 from "@/assets/gallery-1.png";
 // import gallery2 from "@/assets/gallery-2.png";
-import gallery2 from "@/assets/20251022_180730.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.png";
+import gallery2 from "@/assets/gallery-4.png";
+import gallery3 from "@/assets/20251022_180730.jpg";
+import gallery4 from "@/assets/gallery-3.jpg";
 
 const photos = [
     // { src: gallery1, alt: "Family Photo" },
